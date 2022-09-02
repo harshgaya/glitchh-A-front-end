@@ -1,0 +1,9 @@
+.swiper-slide img{
+    width: 210px !important;
+    height: 121px !important;
+    border-radius: 5px;
+}
+.swiper-slide:first-child img {
+    border: 6px solid #E82352;
+    border-radius: 5px;
+}

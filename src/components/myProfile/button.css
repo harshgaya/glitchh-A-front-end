@@ -1,0 +1,15 @@
+.edit{
+    text-align: center;
+    background-color: #E82352;
+    padding: 9px 18px;
+    color: white;
+    border-radius: 10px;
+}
+
+.col-10 .edit{
+    margin-right: -30px;;
+}
+.placement{
+    justify-content: flex-end;
+    margin-right: 10px;
+}

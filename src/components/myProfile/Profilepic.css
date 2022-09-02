@@ -1,0 +1,30 @@
+.circle.small {
+	border: 16px solid rgba(169, 45, 75, 0.24);
+    /* background: radial-gradient(63.97% 63.97% at 50% 50%, rgba(169, 45, 75, 0.24) 56.23%, #E82352 100%); */
+	border-radius: 50%;
+	width: 220px;
+	height: 220px;
+    position: relative;
+    bottom: 221px;
+    left: 1px;
+}
+.profile_img{
+    border-radius: 50%;
+    width: 220px;
+	height: 220px;
+    z-index: 1;
+    /* position: relative;
+    top: -17px;
+    left: -15px; */
+}
+.content{
+    position: absolute;
+    top: 221px;
+    left: 27px;
+}
+.profileImgEdit{
+    position: absolute;
+    top: 160px;
+    right: 12px;
+    /* */
+}
