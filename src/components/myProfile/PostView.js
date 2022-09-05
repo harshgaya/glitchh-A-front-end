@@ -2,7 +2,10 @@ import "./PostView.css"
 import postIcon from "./../../assets/images/post-icon.png"
 import byteIcon from "./../../assets/images/bytes-icon.png"
 import PostInProfile from "./PostinProfile"
-const PostView = () => {
+import post1 from "./../../assets/images/post1.png"
+import post2 from "./../../assets/images/post2.png"
+import post3 from "./../../assets/images/post3.png"
+const PostView = (props) => {
     return (
         <div className="alignment">
             <div className="row">
@@ -18,35 +21,35 @@ const PostView = () => {
             <hr className="hrline" />
            
             <div className="row content-post">
-                <div className="col-4"><PostInProfile /></div>
-                <div className="col-4"><PostInProfile /></div>
-                <div className="col-4"><PostInProfile /></div>
+                <div className="col-4"><PostInProfile url={post1} /></div>
+                <div className="col-4"><PostInProfile url={post2} /></div>
+                <div className="col-4"><PostInProfile url={post3} /></div>
             </div>
             <div className="row content-post">
-                <div className="col-4"><PostInProfile /></div>
-                <div className="col-4"><PostInProfile /></div>
-                <div className="col-4"><PostInProfile /></div>
+            <div className="col-4"><PostInProfile url={post1} /></div>
+                <div className="col-4"><PostInProfile url={post2} /></div>
+                <div className="col-4"><PostInProfile url={post3} /></div>
             </div>
             <div className="row content-post">
-                <div className="col-4"><PostInProfile /></div>
-                <div className="col-4"><PostInProfile /></div>
-                <div className="col-4"><PostInProfile /></div>
+            <div className="col-4"><PostInProfile url={post1} /></div>
+                <div className="col-4"><PostInProfile url={post2} /></div>
+                <div className="col-4"><PostInProfile url={post3} /></div>
             </div>
             <div className="row content-post">
-                <div className="col-4"><PostInProfile /></div>
-                <div className="col-4"><PostInProfile /></div>
-                <div className="col-4"><PostInProfile /></div>
+            <div className="col-4"><PostInProfile url={post1} /></div>
+                <div className="col-4"><PostInProfile url={post2} /></div>
+                <div className="col-4"><PostInProfile url={post3} /></div>
             </div>
             <div className="row content-post">
-                <div className="col-4"><PostInProfile /></div>
-                <div className="col-4"><PostInProfile /></div>
-                <div className="col-4"><PostInProfile /></div>
+            <div className="col-4"><PostInProfile url={post1} /></div>
+                <div className="col-4"><PostInProfile url={post2} /></div>
+                <div className="col-4"><PostInProfile url={post3} /></div>
             </div>
 
             <div className="row content-post">
-                <div className="col-4"><PostInProfile /></div>
-                <div className="col-4"><PostInProfile /></div>
-                <div className="col-4"><PostInProfile /></div>
+            <div className="col-4"><PostInProfile url={post1} /></div>
+                <div className="col-4"><PostInProfile url={post2} /></div>
+                <div className="col-4"><PostInProfile url={post3} /></div>
             </div>
         </div>
 

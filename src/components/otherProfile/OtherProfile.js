@@ -1,19 +1,15 @@
-import "./MyProfile.css"
-import cover_img from './../../assets/images/cover.png'
-import EditbuttonImage from "./EditButton";
-import ProfilePic from "./ProfilePic";
-import Button from "./button";
-import GamesPlayed from "./GamesPlayed";
-import PostView from "./PostView";
-
-import postIcon from "./../../assets/images/post-icon.png"
-import byteIcon from "./../../assets/images/bytes-icon.png"
+import "../myProfile/MyProfile.css"
+import "./OtherProfile.css"
 import profile_img from "./../../assets/images/profile_img.png"
-const MyProfile = () => {
-    // const url = "./../asse//ts/images/cover.png"
-    return (
-        <div className="myProfile">
-            <div className="container">
+import cover_img from './../../assets/images/cover.png'
+import EditbuttonImage from "../myProfile/EditButton";
+import ProfilePic from "../myProfile/ProfilePic";
+import ButtonColoum from "./ButtonColoum";
+import GamesPlayed from "../myProfile/GamesPlayed";
+import PostView from "../myProfile/PostView";
+const OtherProfile = () => {
+    return ( <div>
+          <div className="container">
                 <div className="card background">
                     <img className="coverImage" src={cover_img} alt="Profile Cover" />
                     <EditbuttonImage />
@@ -39,9 +35,10 @@ const MyProfile = () => {
                                 <div className="col-3">Following</div>
                             </div>
                         </div>
-                        <div className="button-align">
+                            <ButtonColoum />
+                        {/* <div className="button-align">
                             <Button />
-                        </div>
+                        </div> */}
                         <div className="gamesPlayedMain">
                         <GamesPlayed />
                         </div>
@@ -53,9 +50,7 @@ const MyProfile = () => {
 
                 </div>
             </div>
-
-        </div>
-    );
+    </div> );
 }
-
-export default MyProfile;
+ 
+export default OtherProfile;

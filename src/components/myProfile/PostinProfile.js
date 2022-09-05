@@ -1,9 +1,9 @@
 import "./PostinProfile.css"
-import post from "./../../assets/images/post1.png"
-const PostInProfile = () => {
+
+const PostInProfile = (props) => {
     return ( 
         <div className="postinProfile">
-            <img src={post} alt="" />
+            <img src={props.url} alt="" />
         </div>
      );
 }
