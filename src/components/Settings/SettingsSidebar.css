@@ -1,0 +1,22 @@
+.settingsCard{
+    padding: 30px;
+    padding-left: 55px;
+    padding-top: 60px;
+    width: 400px;
+    border-radius: 1px;
+}
+.settingsCard h3{
+    font-size: 30px;
+}
+.settingsCard a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding-top: 40px;
+}
+.settingsCard .selectedLink{
+    font-weight: 600;
+}
+.settingsCard a:last-child{
+    padding-bottom: 381px;
+}

@@ -1,0 +1,74 @@
+body{
+    overflow: hidden;
+}
+.rightSideSpace{
+    margin-left:-80px;
+
+}
+.settingRightside{
+    margin-top: 10px;
+    margin-right: -30px;
+    text-align:left;
+    padding: 30px;
+    width: 118.5%;
+}
+.settingRightside h3{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.custom-field-label {
+    margin-left: 10px;
+    color:  #959595;
+    font-size: 15px;
+}
+.custom-field, .custom-field:focus{
+    background-image: linear-gradient(180deg, #1C1C1C 0%, rgba(22, 22, 22, 0) 100%) !important;
+    background-color: transparent;
+    border: 1px solid  rgba(222, 213, 213, 0.09);  
+    color: #575555;
+    border-radius: 10px;  
+}
+
+.custom-field:focus{
+    background-color: #1C1C1C;
+
+}
+.settingRightside form .row{
+    padding-bottom: 25px;
+}
+/* .selectPhone{
+    max-width: 70px !important;
+} */
+/* .NumberPhone{
+    max-width: 100%;
+    width: 90%;
+} */
+.PhoneInputCountry:focus, .PhoneInputInput:focus{
+    background-color: #1C1C1C;
+}
+.PhoneInputCountry{
+    background-image: linear-gradient(180deg, #1C1C1C 0%, rgba(22, 22, 22, 0) 100%) !important;
+    background-color: transparent;
+    border: 1px solid  rgba(222, 213, 213, 0.09);  
+    color: inherit;     
+    width: 70px !important;
+    justify-content: center !important;
+    height: 35px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.PhoneInputInput{
+    background-image: linear-gradient(180deg, #1C1C1C 0%, rgba(22, 22, 22, 0) 100%) !important;
+    background-color: transparent;
+    border: 1px solid  rgba(222, 213, 213, 0.09);  
+    color: inherit;
+    height: 35px;  
+    border-bottom-right-radius: 5px; 
+    border-top-right-radius: 5px;  
+}
+.width-full{
+    width: 100%;
+}
+.inSettings{
+    align-items: flex-start;
+}
