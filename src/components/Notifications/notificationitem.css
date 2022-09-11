@@ -1,0 +1,34 @@
+.notificationItem{
+    justify-content: right;
+    border-top: 1px solid grey;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+
+.notification_item_header{
+    display: flex;
+    align-items: center;
+}
+
+.notification_text{
+    
+    display:inline-block;
+    vertical-align: top;
+    
+}
+
+.username{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.content{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}

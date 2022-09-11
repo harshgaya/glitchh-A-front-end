@@ -28,6 +28,13 @@ body{
     color: #575555;
     border-radius: 10px;  
 }
+.EditForm>input{
+    color: #575555;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(0.4);
+}
 
 .custom-field:focus{
     background-color: #1C1C1C;

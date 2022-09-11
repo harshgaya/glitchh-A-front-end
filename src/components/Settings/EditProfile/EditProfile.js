@@ -22,7 +22,7 @@ const EditProfile = () => {
                 <h3>
                     Edit Profile
                 </h3>
-                <form>
+                <form className="EditForm">
                     <div className="row ">
                         <div className="col-6">
                             <label htmlFor="username" className="custom-field-label">Username</label>

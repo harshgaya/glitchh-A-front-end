@@ -6,6 +6,7 @@ import SettingsSidebar from './components/Settings/SettingsSidebar';
 import EditProfile from './components/Settings/EditProfile/EditProfile';
 import ChangePassword from './components/Settings/ChangePassword/ChangePassword';
 import HelpSupport from './components/Settings/HelpSupport/HelpSupport';
+import NotificationFinal from './components/Notification/notifiFin';
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
         <Route path="edit" element={<EditProfile />} />
         <Route path="changePassword" element={<ChangePassword />} />
         <Route path="help" element={<HelpSupport />} />
+        <Route path="noti" element={<NotificationFinal />} />
       </Routes>
     </div>
   );

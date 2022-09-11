@@ -1,0 +1,24 @@
+.notiCard{
+    padding-top: 30px;
+    
+}
+.notiHead{
+    padding-left: 30px;
+    font-size: 30px;
+}
+.notiHr{
+    margin-top: 0 !important;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+
+}
+.notiSub:first-of-type{
+    padding-top: 30px;
+}
+.notiSub{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.itemNoti{
+    padding-bottom: 25px;
+}

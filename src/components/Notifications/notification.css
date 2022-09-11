@@ -1,0 +1,19 @@
+.notification{
+    margin: auto;   
+    padding-top:100px;
+    background:linear-gradient(
+        rgba(21, 15, 15, 0.2646)
+rgba(21, 15, 15, 0.6237)
+rgba(21, 15, 15, 0.378)
+    )!important;
+    max-width: 1060px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'poppins';
+    line-height: 45px;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+.bg{
+    background: hsl(0, 0%, 12%);
+}

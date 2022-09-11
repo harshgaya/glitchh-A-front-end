@@ -22,7 +22,7 @@ const HelpSupport = () => {
                     </div>
                     <div className="row">
                         <div className="col-12">
-                            <label htmlFor="issue" className="custom-field-label">Explain your issue</label>
+                            <label htmlFor="issue" className="custom-field-label">Explain your issue in detail</label>
                             <textarea name="issue" className='form-control custom-field' id="issue" cols="21" rows="8" ></textarea>
 
                         </div>
