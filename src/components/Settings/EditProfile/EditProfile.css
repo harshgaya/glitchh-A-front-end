@@ -1,16 +1,16 @@
-body{
+/* body{
     overflow: hidden;
-}
+} */
 .rightSideSpace{
-    margin-left:-80px;
+    /* margin-left:-80px; */
 
 }
 .settingRightside{
     margin-top: 10px;
-    margin-right: -30px;
+    /* margin-right: -30px; */
     text-align:left;
     padding: 30px;
-    width: 118.5%;
+    /* width: 118.5%; */
 }
 .settingRightside h3{
     font-size: 30px;
@@ -78,4 +78,5 @@ body{
 }
 .inSettings{
     align-items: flex-start;
+    margin-right: 0;
 }
