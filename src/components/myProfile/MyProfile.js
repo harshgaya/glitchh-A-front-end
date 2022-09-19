@@ -119,6 +119,8 @@ const MyProfile = (props) => {
                     {/* <EditbuttonImage  /> */}
                     <button onClick={editBackgroundImageHandler} className="logoButton"><img src={button} alt="editButton" /></button>
 
+
+
                     {backdrop && <div>
 
                         {ReactDOM.createPortal(

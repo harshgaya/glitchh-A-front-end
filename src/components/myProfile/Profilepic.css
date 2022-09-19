@@ -1,30 +1,134 @@
 .circle.small {
-	border: 16px solid rgba(169, 45, 75, 0.24);
+    border: 16px solid rgba(169, 45, 75, 0.24);
     /* background: radial-gradient(63.97% 63.97% at 50% 50%, rgba(169, 45, 75, 0.24) 56.23%, #E82352 100%); */
-	border-radius: 50%;
-	width: 220px;
-	height: 220px;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
     position: relative;
     bottom: 221px;
     left: 1px;
 }
-.profile_img{
+
+.profile_img {
     border-radius: 50%;
     width: 220px;
-	height: 220px;
+    height: 220px;
     z-index: 1;
     /* position: relative;
     top: -17px;
     left: -15px; */
 }
-.content{
+
+.content {
     position: absolute;
-    top: 264px;;
+    top: 264px;
+    ;
     left: 27px;
 }
-.profileImgEdit{
+
+.profileImgEdit {
     position: absolute;
     top: 160px;
     right: 12px;
     /* */
+}
+
+
+.backdrop-for-profile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+
+
+
+
+
+
+.choose-banner-pop-up {
+    width: 80%;
+    height: 90%;
+    background-color: #1A1717;
+    z-index: 100;
+    position: fixed;
+    top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    left: 140px;
+}
+
+.profile-lists {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: green; */
+
+}
+
+.profile-images {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+.selected-profile-image {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.selected-profile-image p {
+    color: #A5A1A1;
+    font-family: 'Inter';
+}
+
+
+.profile-images-list {
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px solid #3F3F3F;
+    padding: 10px;
+    border-radius: 5px;
+
+
+
+
+}
+
+.profile-single-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #DADADA;
+
+}
+
+.profile-single-image:active {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 2px;
+    border: 1px solid #E82352;
 }
